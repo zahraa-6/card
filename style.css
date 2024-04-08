@@ -1,0 +1,99 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: content-box;
+}
+.navbar{
+    background-color: rgb(226, 234, 241);
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    line-height: 1.6;
+    background: #c7d0e0;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4%;
+    align-items: center;
+    margin-top: 1%;
+    grid-template-columns :repeat(4,1fr);
+    gap: 25px;
+    padding-left:15%;
+}
+.card {
+ color: rgb(8, 8, 10);  
+ background-image: url(./istockphoto-1127722728-1024x1024.jpg); 
+ background-size: cover;
+ padding: 10rem 2 2 ;
+ overflow: hidden;
+ border-radius: 4%;
+ width: 250px;
+ height: 400px;
+ padding: 20px;
+ box-shadow: 3px 3px 3px #b0acb0;
+}
+.card-content{
+    padding: 1.5em;
+    background: hs1(0 0% 0% /0.5);
+}
+.card-body{
+    color: #0b0b0b;
+}
+.button{  
+    display: inline-block;
+    color: #141616;
+    background-color: rgb(192, 215, 234);
+    
+}
+.card-a{
+    color: rgb(8, 8, 10);  
+    background-image: url(./istockphoto-1195289686-1024x1024.jpg); 
+    background-size: cover;
+    padding: 10rem 2 2 ;
+    overflow: hidden;
+    border-radius: 4%;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px #b0acb0;
+   }
+   .card-content-a{
+       padding: 1.5em;
+       background: hs1(0 0% 0% /0.5);
+   }
+   .card-body-a{
+       color: #0b0b0b;
+   }
+   .button{  
+       display: inline-block;
+       color: #141616;
+       background-color: rgb(192, 215, 234);
+       
+   }
+   .card-b{
+    color: rgb(8, 8, 10);  
+    background-image: url(./istockphoto-582256640-1024x1024.jpg); 
+    background-size: cover;
+    padding: 10rem 2 2 ;
+    overflow: hidden;
+    border-radius: 4%;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px #5f5e5f;
+   }
+   .card-content-b{
+       padding: 1.5em;
+       background: hs1(0 0% 0% /0.5);
+   }
+   .card-body-b{
+       color: #0b0b0b;
+   }
+   .button{  
+       display: inline-block;
+       color: #141616;
+       background-color: rgb(192, 215, 234);
+       
+   }
+   
+   
